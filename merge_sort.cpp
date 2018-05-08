@@ -14,9 +14,7 @@ void ccontent_of(const std::vector<int> &v, std::string vname) {
 
 void merge(std::vector<int> &arr, int p, int q, int r)
 {
-    int n1 = (q - p) + 1;
-    int n2 = r - q;
-
+   
     std::vector<int> L;
     std::vector<int> R;
 
